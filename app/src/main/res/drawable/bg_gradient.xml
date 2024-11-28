@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#2AA8FF"
+                android:endColor="#6F3AFA"
+                android:angle="90" />
+            <!-- Radius hanya di bagian bawah -->
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Gray">#E2E2E9</color>
+    <color name="btn_details">#57E5CB</color>
+    <color name="Blue">#2196F3</color>
+    <color name="edit">#ffa500</color>
+    <color name="hapus">#ff0000</color>
+    <color name="card">#646464</color>
+    <color name="edit_text_color">#ffffff</color>
+
+
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345805021954",
+    "project_id": "aplikasipoliklinik",
+    "storage_bucket": "aplikasipoliklinik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345805021954:android:7457913c9f2e584cc0981b",
+        "android_client_info": {
+          "package_name": "com.rifai.aplikasipoliklinik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdHzPPbnGaNXc6o-FWEQ-0FqdAPC1i_7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

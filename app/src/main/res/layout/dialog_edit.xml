@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DialogEditActivity">
+
+    <EditText
+        android:id="@+id/editnama"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Nama"
+        android:inputType="text"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/editumur"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Umur"
+        android:inputType="number"
+        android:textSize="16sp" />
+    <Spinner
+        android:id="@+id/editjk"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/poppins"
+        android:entries="@array/jenis"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/editalamat"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Alamat"
+        android:inputType="text"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/editno_hp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Nomor HP"
+        android:inputType="number|phone"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/edittgl_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Tanggal Daftar"
+        android:inputType="none"
+        android:focusable="false"
+        android:clickable="true"
+        android:textSize="16sp"/>
+    <Spinner
+        android:id="@+id/editpilihanpoli"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
+        android:entries="@array/poli" />
+</LinearLayout>
